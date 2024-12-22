@@ -1,17 +1,24 @@
 remote_theme: just-the-docs/just-the-docs
 
+# Set the base URL path
+baseurl: "/pfdk"
+url: "https://sigrun.github.io"
+
 # Enable navigation structure
 aux_links:
-  "Home": "/"
+  "Home": "/pfdk/"
 
 # Define navigation structure
 nav_order: 1
 nav:
+  - title: "Home"
+    url: /pfdk/
+    nav_order: 1
   - title: "Level 1"
-    url: /level1/
+    url: /pfdk/level1/
     children:
       - title: "Level 2"
-        url: /level1/level2/
+        url: /pfdk/level1/level2/
         children:
           - title: "Level 3"
-            url: /level1/level2/level3/
+            url: /pfdk/level1/level2/level3/
