@@ -1,1 +1,17 @@
 remote_theme: just-the-docs/just-the-docs
+
+# Enable navigation structure
+aux_links:
+  "Home": "/"
+
+# Define navigation structure
+nav_order: 1
+nav:
+  - title: "Level 1"
+    url: /level1/
+    children:
+      - title: "Level 2"
+        url: /level1/level2/
+        children:
+          - title: "Level 3"
+            url: /level1/level2/level3/
