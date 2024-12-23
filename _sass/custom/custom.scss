@@ -1,0 +1,51 @@
+// Utskriftsvennlig versjon
+@media print {
+  details {
+    display: block !important;
+  }
+  
+  details > summary {
+    display: none;
+  }
+  
+  .btn {
+    display: none;
+  }
+}
+
+// Forbedret lesbarhet for områdebeskrivelse
+.note-title {
+  background-color: #f5f6fa;
+  border-left: 4px solid #2869e6;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+// Forbedret styling for læringsmål
+.highlight {
+  background-color: #f5f6fa;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+// Bedre synlighet for accordions
+details {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  
+  summary {
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    
+    &:hover {
+      background-color: #f5f6fa;
+    }
+  }
+  
+  > div {
+    padding: 1rem;
+  }
+}
